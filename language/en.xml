@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+    <message>
+        <phase name="error_occur">Error occur!</phase>
+        <phase name="empty_all">Please fill in all the fields</phase>
+        <phase name="email_not_found">E-mail not found in database</phase>
+        <phase name="login_error">Login error</phase>
+        <phase name="login_success">Đăng nhập thành công!</phase>
+        <phase name="user_incorrect">Username or Password incorrect</phase>
+        <phase name="user_not_activate">Please activate your account before login</phase>
+        <phase name="name.empty">Name is required</phase>
+        <phase name="name.exists">Name already exists</phase>
+        <phase name="username.invalid">Username is invalid</phase>
+        <phase name="username.exists">Username already exists</phase>
+        <phase name="referer_not_exists">Referrer does not exists</phase>
+        <phase name="role_not_exists">Role does not exists</phase>
+        <phase name="email.invalid">E-mail address is invalid</phase>
+        <phase name="email.exists">E-mail address already exists</phase>
+        <phase name="email.not_exists">E-mail does not exists</phase>
+        <phase name="gender.invalid">Gender is invalid</phase>
+        <phase name="dob.invalid">Date Of Birth is invalid</phase>
+        <phase name="phone.invalid">Phone number is invalid</phase>
+        <phase name="empty_password">Please enter password</phase>
+        <phase name="password_no_match">Passwords does not match</phase>
+        <phase name="conform_password_incorrect">Confirm passwords incorrect</phase>
+        <phase name="create_success">Created successfully!</phase>
+        <phase name="delete_success">Deleted successfully!</phase>
+        <phase name="update_success">Updated successfully!</phase>
+        <phase name="activate_success">Activated successfully!</phase>
+        <phase name="publish_success">Published successfully!</phase>
+        <phase name="move2trash_success">Move to trash successfully!</phase>
+        <phase name="active_success">Active successfully!</phase>
+        <phase name="cancel_success">Canceled successfully!</phase>
+        <phase name="some_category_contains_posts">There are some categories contains article should not be deleted.</phase>
+        <phase name="category_contains_posts">contains article should not be deleted.</phase>
+        <phase name="empty_menu_name">Please select a Menu before add new.</phase>
+        <phase name="mail_send_success">Sent successfully, please check your inbox!</phase>
+        <phase name="mail.create_user.subject">Welcome, {name}!</phase>
+        <phase name="mail.create_user.body"><![CDATA[
+            <p>Hello {name},</p>
+            <p>Your account has been created at {sitename}. You can log in using the username and password below:<br />
+            <strong>Username:</strong> {username}<br />
+            <strong>Password:</strong> {password}<br />
+            <strong>Login URL:</strong> <a href="{login_url}">{login_url}</a><br /><br />
+            </p>
+            <p>Thank you,<br /><strong>{sitename}</strong></p>
+        ]]></phase>
+        <phase name="mail.forgotpassword.subject">Forgot password, {name}!</phase>
+        <phase name="mail.forgotpassword.body"><![CDATA[
+            <p>Hello {name},</p>
+            <p>You had reset your password at {sitename}. You can log in using the username and password below:<br />
+            <strong>Username:</strong> {username}<br />
+            <strong>Password:</strong> {password}<br />
+            <strong>Login URL:</strong> <a href="{login_url}">{login_url}</a><br /><br />
+            </p>
+            <p>Thank you,<br /><strong>{sitename}</strong></p>
+        ]]></phase>
+        <phase name="mail.contact.subject">Contact, {name}!</phase>
+        <phase name="mail.contact.body"><![CDATA[
+            <p>Hello {fullname},</p>
+            <p><strong>Fullname:</strong> {fullname}<br>
+            <strong>Company:</strong> {company}<br>
+            <strong>Telephone number:</strong> {telephone}<br>
+            <strong>Mobile phone:</strong> {mobile}<br>
+            <strong>Email Address:</strong> <a target="_blank" href="mailto:{email}">{email}</a><br>
+            <strong>Website:</strong> <a target="_blank" href="{website}">{website}</a><br>
+            <strong>Message:</strong><br>
+            </p>
+            <div>{message}</div><br />
+            <p>Thank you,<br />
+            <strong>{sitename}</strong></p>
+        ]]></phase>
+    </message>
+</language>

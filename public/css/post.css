@@ -1,0 +1,102 @@
+body {margin:0;padding:0;
+	background-color:#303030;
+	color:#303030;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:18px;
+	margin:0px 0px;
+}
+.text {
+	text-indent:0em;text-transform: none;	 
+}
+.bold {font-weight:bold; color:#ff6446;}
+img {border:none; vertical-align:text-bottom;}
+.clear{clear:both;font-size:0px;line-height:0px;}
+sub, sup {
+font-size: 75%;
+line-height: 0;
+position: relative;
+vertical-align: baseline;
+} 
+sup {
+top: -0.5em;
+} 
+sub {
+bottom: -0.25em;
+}
+ul {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	list-style-image:url();
+	list-style:none;
+}
+ul li { 
+background: url(../images/iconlist.jpg) no-repeat 2px 7px; padding-left:20px;
+}
+a {
+	color:#303030;
+	text-decoration:none;
+}
+#wrapper {
+	margin:0px auto;
+	width:799px;
+	color:#303030;
+	position:relative;
+	background: url(../images/bg.jpg) repeat 0px 0px;
+}
+#header{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	height:36px;
+	background: url(../images/bghead.jpg) repeat-x 0px 0px;
+	color:#fff;
+}
+#header a{ color:#fff;}
+.home{ font-size:14px; line-height:19px; font-weight:bold; position:absolute; top:10px; left:570px; text-shadow: 0px 2px 5px  #333;}
+.home img{ vertical-align:text-top;}
+#content{ font-family:"Times New Roman", Times, serif; padding:40px 70px 70px 70px; font-size:19px; line-height:22px;text-align: justify}
+h1{
+	font-size:28px;
+	margin: 0px 0px 16px;
+	line-height:36px;
+}
+p{ margin-bottom:16px;}
+h2{
+	font-size:20px;
+	margin: 0px 0px;
+	padding:6px 0 0  70px;
+	line-height:24px;
+	font-style:italic;
+	text-shadow: 0px 2px 5px  #333;
+}
+h3{
+	font-size:22px;
+	margin: 16px 0px 20px;
+	line-height:26px;
+}
+h4{
+	font-size:20px;
+	margin: 16px 0px;
+	line-height:24px;
+}
+.share{ background-color:#fff; width:650px; border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;}
+
+.left{ float:left; width:235px;}
+.right{ float:left;}
+
+.like{ margin:16px 0px 3px 0px;}
+.news { font-family:Arial, Helvetica, sans-serif;; font-size:14px; line-height:20px; margin:24px 0px 20px; font-weight:bold;}
+
+.news ul {
+	margin:16px 0px 16px 0px;
+	padding:0px 0px 0px 0px;
+	list-style-image:url();
+	list-style:none;
+}
+.news ul li { 
+background: url(../images/iconlist.jpg) no-repeat 2px 7px; padding-left:20px;
+padding-bottom:6px
+}

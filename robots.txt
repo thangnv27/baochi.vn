@@ -1,0 +1,8 @@
+User-Agent: *
+Crawl-Delay: 10
+
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /app/
+Disallow: /language/
+Disallow: /tmp/
